@@ -100,7 +100,7 @@ export async function createChatAPIRoute(req: Request) {
             status: 500,
             data: {
                 id: Date.now().toString(),
-                content: error.message || "An unexpected error occurred",
+                content: (error instanceof Error ? error.message : "An unexpected error occurred"),
                 sender: 'bot',
                 timestamp: Date.now()
             }

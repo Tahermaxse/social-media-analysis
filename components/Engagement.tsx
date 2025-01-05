@@ -1,7 +1,16 @@
 import { TrendingDown, TrendingUp } from "lucide-react";
 import React from "react";
 
-const ResponseCard = ({
+interface ResponseCardProps {
+  title: string;
+  subtitle: string;
+  stats: string;
+  extraDetails: string;
+  icon: React.ReactNode;
+  trendData: number;
+}
+
+const ResponseCard: React.FC<ResponseCardProps> = ({
   title,
   subtitle,
   stats,
@@ -83,7 +92,11 @@ const ResponseCard = ({
   );
 };
 
-const Engagement = ({ data }) => {
+interface EngagementProps {
+  data: ResponseCardProps[];
+}
+
+const Engagement: React.FC<EngagementProps> = ({ data }) => {
   return (
     <section className="min-h-[200px]">
       <section className="p-8 bg-white dark:bg-black rounded-3xl border border-black/5 dark:border-white/5">
