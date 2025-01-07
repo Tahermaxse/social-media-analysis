@@ -36,7 +36,7 @@ const OverviewSection = () => {
 						{
 							title: 'LIKES',
 							number: 271275,
-							description: 'ALL EMERGENCY RESPONSES',
+							description: 'TOTAL ENGAGEMENTS LIKES', 
 							icon: (
 								<Heart className="w-5 h-5 text-black/40 dark:text-white/40" />
 							),
@@ -44,7 +44,7 @@ const OverviewSection = () => {
 						{
 							title: 'SHARE',
 							number: 56303,
-							description: 'HIGH PRIORITY RESPONSES',
+							description: 'TOTAL ENGAGEMENTS SHARES',
 							icon: (
 								<Share2 className="w-5 h-5 text-black/40 dark:text-white/40" />
 							),
@@ -52,7 +52,7 @@ const OverviewSection = () => {
 						{
 							title: 'COMMENTS',
 							number: 27387,
-							description: 'CRITICAL INCIDENTS ONLY',
+							description: 'TOTAL ENGAGEMENTS COMMENTS',
 							icon: (
 								<MessageCircle className="w-5 h-5 text-black/40 dark:text-white/40" />
 							),

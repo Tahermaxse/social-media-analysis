@@ -84,8 +84,8 @@ const ResponseCard: React.FC<ResponseCardProps> = ({
 					</div>
 					<div className="space-y-2 mt-4">
 						<div className="flex items-center gap-2 text-[10px] font-mono text-black/40 dark:text-white/40">
-							<Instagram className="w-5 h-5" />
-							Instagram: <span>`${percentage1}%`</span>
+							<Instagram className="w-3 h-3" />
+							Instagram: <span>{percentage1}%</span>
 						</div>
 						<div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1.5">
 							<div
@@ -94,8 +94,8 @@ const ResponseCard: React.FC<ResponseCardProps> = ({
 							></div>
 						</div>
 						<div className="flex items-center gap-2 text-[10px] font-mono text-black/40 dark:text-white/40">
-							<Facebook className="w-5 h-5" />
-							Facebook: <span>`${percentage2}%`</span>
+							<Facebook className="w-3 h-3" />
+							Facebook: <span>{percentage2}%</span>
 						</div>
 						<div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1.5">
 							<div
@@ -104,8 +104,8 @@ const ResponseCard: React.FC<ResponseCardProps> = ({
 							></div>
 						</div>
 						<div className="flex items-center gap-2 text-[10px] font-mono text-black/40 dark:text-white/40">
-							<Linkedin className="w-5 h-5" />
-							LinkedIn: <span>`${percentage3}%`</span>
+							<Linkedin className="w-3 h-3" />
+							LinkedIn: <span>{percentage3}%</span>
 						</div>
 						<div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1.5">
 							<div

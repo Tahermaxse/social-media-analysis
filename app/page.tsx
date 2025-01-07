@@ -12,7 +12,7 @@ const data = [
 	{
 		title: 'AVG LIKES',
 		subtitle: '9.9',
-		stats: '6,904 calls',
+		stats: '6,804 calls',
 		extraDetails: '5.2',
 		icon: <Heart className="w-3 h-3 text-black/40 dark:text-white/40" />,
 		trendData: 15,
@@ -23,7 +23,7 @@ const data = [
 	{
 		title: 'CAROUSEL',
 		subtitle: '8.7',
-		stats: '6,904 calls',
+		stats: '4028, calls',
 		extraDetails: '13.1',
 		icon: <Heart className="w-3 h-3 text-black/40 dark:text-white/40" />,
 		trendData: 7,
@@ -34,7 +34,7 @@ const data = [
 	{
 		title: 'Image',
 		subtitle: '6.5',
-		stats: '6,904 calls',
+		stats: '5,3028 calls',
 		extraDetails: '25.3',
 		icon: <Image className="w-3 h-3 text-black/40 dark:text-white/40" />,
 		trendData: 10,
