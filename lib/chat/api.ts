@@ -14,8 +14,8 @@ class LangflowClient {
 
         this.baseURL = 'https://api.langflow.astra.datastax.com';
         this.applicationToken = process.env.LANGFLOW_APPLICATION_TOKEN || '';
-        this.flowId = process.env.LANGFLOW_FLOW_ID || 'e19bddaf-e312-4ed8-aefa-20b862f0dd5f';
-        this.langflowId = process.env.LANGFLOW_ID || '231347d0-6bd8-49aa-a1c6-a2f67b308cd0';
+        this.flowId = process.env.LANGFLOW_FLOW_ID || '';
+        this.langflowId = process.env.LANGFLOW_ID || '';
 
         if (!this.applicationToken) {
             throw new Error('LANGFLOW_APPLICATION_TOKEN is required');
@@ -47,18 +47,13 @@ class LangflowClient {
         const endpoint = `/lf/${this.langflowId}/api/v1/run/${this.flowId}?stream=false`;
         const tweaks = {
             "Prompt-afQuL": {},
-            "OpenAIModel-Wb3Qu": {},
             "ChatInput-xJcBD": {},
             "ChatOutput-o6So5": {},
             "AstraDB-LNc2P": {},
             "ParseData-EogdC": {},
             "TextInput-CUixh": {},
-            "Google Generative AI Embeddings-PjYj2": {},
-            "File-A8gVU": {},
-            "SplitText-jYILK": {},
-            "AstraDB-tYtTl": {},
-            "Google Generative AI Embeddings-h0d4W": {},
-            "GoogleGenerativeAIModel-i95yB": {}
+            "OpenAIModel-ZWG44": {},
+            "OpenAIEmbeddings-p8e4V": {}
         };
 
         return this.post(endpoint, {
