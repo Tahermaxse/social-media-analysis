@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Calendar, Moon, Sun } from 'lucide-react';
+import { Calendar, Github, Moon, Sun } from 'lucide-react';
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 
@@ -28,6 +28,11 @@ const TopNavBar = () => {
             <div className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-[#D94E1E] to-[#D94E1E]/80" />
             <span className="text-[10px] sm:text-xs font-mono text-black/50 dark:text-white/50">
               Overview
+            </span>
+            <span className="ml-3 bg-black/[0.02] dark:bg-white/[0.02]
+                hover:bg-black/[0.05] dark:hover:bg-white/[0.05]
+                transition-colors duration-300">
+              <Github className="w-4 h-4" />
             </span>
           </div>
 
