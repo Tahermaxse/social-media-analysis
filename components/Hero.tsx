@@ -62,6 +62,7 @@ const Hero = () => {
 												AVERAGE LIKES (7 DAY AVG)
 											</div>
 										</div>
+										
 									</div>
 									<div className="text-[10px] font-mono text-black/40 dark:text-white/40">
 										<span>REFRESHES DAILY</span>
