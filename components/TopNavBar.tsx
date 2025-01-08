@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Calendar, Github, Moon, Sun } from 'lucide-react';
+import { Calendar, Github, Moon, Sun, Youtube } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
@@ -37,6 +37,15 @@ const TopNavBar = () => {
 						>
 							<Link href="https://github.com/Tahermaxse/social-media-analysis">
 								<Github className="w-4 h-4" />
+							</Link>
+						</span>
+						<span
+							className="ml-3 bg-black/[0.02] dark:bg-white/[0.02]
+                hover:bg-black/[0.05] dark:hover:bg-white/[0.05]
+                transition-colors duration-300"
+						>
+							<Link href="https://github.com/Tahermaxse/social-media-analysis">
+								<Youtube className="w-4 h-4" />
 							</Link>
 						</span>
 					</div>
