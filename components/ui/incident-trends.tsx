@@ -186,24 +186,6 @@ export function SocialMediaTrends() {
 				<div className="border-b border-black/10 dark:border-white/10 p-4">
 					<div className="flex flex-col gap-4">
 						<div className="flex gap-4">
-							{/* <div className="flex gap-1 p-1 bg-black/[0.02] dark:bg-white/[0.02] rounded-lg">
-                {(["D", "W", "M"] as TimeRange[]).map((range) => (
-                  <button
-                    key={range}
-                    onClick={() => setTimeRange(range)}
-                    className={cn(
-                      "w-8 h-7 rounded-md text-[10px] font-mono",
-                      "flex items-center justify-center transition-colors duration-200",
-                      timeRange === range
-                        ? "bg-[#D94E1E] text-white shadow-lg shadow-[#D94E1E]/20"
-                        : "text-black/40 dark:text-white/40 hover:text-black dark:hover:text-white"
-                    )}
-                  >
-                    {range}
-                  </button>
-                ))}
-              </div> */}
-
 							<div className="flex gap-2">
 								{categories.map((group) => (
 									<button
