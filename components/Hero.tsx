@@ -51,15 +51,12 @@ const Hero = () => {
 												9,170
 											</div>
 											<div className="text-[10px] font-mono text-black/40 dark:text-white/40">
-												LIKES (LAST 7 DAYS)
+												TOTAL LIKES (LAST 7 DAYS)
 											</div>
 										</div>
 										<div className="space-y-1 text-center">
 											<div className="text-3xl sm:text-4xl font-light tabular-nums">
 												295.8
-												<span className="text-sm ml-1 text-black/40 dark:text-white/40">
-													MIN
-												</span>
 											</div>
 											<div className="text-[10px] font-mono text-black/40 dark:text-white/40">
 												AVERAGE LIKES (7 DAY AVG)
