@@ -44,7 +44,7 @@ const TopNavBar = () => {
                 hover:bg-black/[0.05] dark:hover:bg-white/[0.05]
                 transition-colors duration-300"
 						>
-							<Link href="https://github.com/Tahermaxse/social-media-analysis">
+							<Link href="https://youtu.be/g57W5X7V8vw?feature=shared">
 								<Youtube className="w-4 h-4" />
 							</Link>
 						</span>
