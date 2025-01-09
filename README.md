@@ -1,7 +1,7 @@
 # Social Media Performance Analysis
 
 ## Demo
-[Youtube](https://youtu.be/g57W5X7V8vw?feature=shared)
+[Youtube](https://youtu.be/VQOifF-82uI?si=tAwd4Vb0wYk_isZh)
 
 ## Project Overview
 This project implements a social media analytics module that leverages Langflow and DataStax Astra DB to analyze engagement patterns across different types of social media content. The system provides data-driven insights to help content creators and social media managers optimize their content strategy.

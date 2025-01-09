@@ -44,7 +44,7 @@ const TopNavBar = () => {
                 hover:bg-black/[0.05] dark:hover:bg-white/[0.05]
                 transition-colors duration-300"
 						>
-							<Link href="https://youtu.be/g57W5X7V8vw?feature=shared">
+							<Link href="https://youtu.be/VQOifF-82uI?si=tAwd4Vb0wYk_isZh">
 								<Youtube className="w-4 h-4" />
 							</Link>
 						</span>
